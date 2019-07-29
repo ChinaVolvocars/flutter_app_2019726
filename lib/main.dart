@@ -1,7 +1,9 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(HomeApp());
+import 'animation/AnimatedContainerApp.dart';
+
+void main() => runApp(AnimatedContainerApp());
 
 class HomeApp extends StatelessWidget {
   @override
